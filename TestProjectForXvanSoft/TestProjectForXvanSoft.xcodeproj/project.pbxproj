@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E0E9EA028C7A7D100553BDC /* ArtworkCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0E9E9F28C7A7D100553BDC /* ArtworkCollectionView.swift */; };
+		5E0E9EA928C9F22500553BDC /* 04. Brightest Lights (Feat. POLICA).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E0E9EA428C9F22400553BDC /* 04. Brightest Lights (Feat. POLICA).mp3 */; };
+		5E0E9EAA28C9F22500553BDC /* 05. Sunday Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E0E9EA528C9F22400553BDC /* 05. Sunday Song.mp3 */; };
+		5E0E9EAB28C9F22500553BDC /* 01. Groundhog Day.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E0E9EA628C9F22400553BDC /* 01. Groundhog Day.mp3 */; };
+		5E0E9EAC28C9F22500553BDC /* 02. Road (Feat. Arctic Lake).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E0E9EA728C9F22400553BDC /* 02. Road (Feat. Arctic Lake).mp3 */; };
+		5E0E9EAD28C9F22500553BDC /* 03. Just.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E0E9EA828C9F22500553BDC /* 03. Just.mp3 */; };
+		5E5A706628C759E800EACE7C /* MusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A706528C759E800EACE7C /* MusicManager.swift */; };
 		5EC6269728C2972100401933 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC6269628C2972100401933 /* AppDelegate.swift */; };
 		5EC6269928C2972100401933 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC6269828C2972100401933 /* SceneDelegate.swift */; };
-		5EC6269B28C2972100401933 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC6269A28C2972100401933 /* ViewController.swift */; };
-		5EC6269E28C2972100401933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC6269C28C2972100401933 /* Main.storyboard */; };
 		5EC626A028C2972300401933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC6269F28C2972300401933 /* Assets.xcassets */; };
 		5EC626A328C2972300401933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC626A128C2972300401933 /* LaunchScreen.storyboard */; };
+		5EC626AB28C2993600401933 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC626AA28C2993600401933 /* InitialViewController.swift */; };
+		5EC626BA28C2B03A00401933 /* PlayerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC626B928C2B03A00401933 /* PlayerButton.swift */; };
+		5EC626BC28C2B05800401933 /* TimeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC626BB28C2B05800401933 /* TimeSlider.swift */; };
+		5EC626BE28C2B07100401933 /* SongLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC626BD28C2B07100401933 /* SongLabel.swift */; };
+		5EC626C028C2B07B00401933 /* TimeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC626BF28C2B07B00401933 /* TimeLabel.swift */; };
+		5EC626C328C2B0FF00401933 /* ArtworkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC626C228C2B0FF00401933 /* ArtworkCollectionViewCell.swift */; };
+		5EC626C628C2B12000401933 /* SongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC626C528C2B12000401933 /* SongModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E0E9E9F28C7A7D100553BDC /* ArtworkCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkCollectionView.swift; sourceTree = "<group>"; };
+		5E0E9EA428C9F22400553BDC /* 04. Brightest Lights (Feat. POLICA).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04. Brightest Lights (Feat. POLICA).mp3"; sourceTree = "<group>"; };
+		5E0E9EA528C9F22400553BDC /* 05. Sunday Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05. Sunday Song.mp3"; sourceTree = "<group>"; };
+		5E0E9EA628C9F22400553BDC /* 01. Groundhog Day.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01. Groundhog Day.mp3"; sourceTree = "<group>"; };
+		5E0E9EA728C9F22400553BDC /* 02. Road (Feat. Arctic Lake).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02. Road (Feat. Arctic Lake).mp3"; sourceTree = "<group>"; };
+		5E0E9EA828C9F22500553BDC /* 03. Just.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03. Just.mp3"; sourceTree = "<group>"; };
+		5E5A706528C759E800EACE7C /* MusicManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicManager.swift; sourceTree = "<group>"; };
 		5EC6269328C2972100401933 /* TestProjectForXvanSoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProjectForXvanSoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC6269628C2972100401933 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EC6269828C2972100401933 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5EC6269A28C2972100401933 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5EC6269D28C2972100401933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EC6269F28C2972300401933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EC626A228C2972300401933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EC626A428C2972300401933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC626AA28C2993600401933 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		5EC626B928C2B03A00401933 /* PlayerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerButton.swift; sourceTree = "<group>"; };
+		5EC626BB28C2B05800401933 /* TimeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlider.swift; sourceTree = "<group>"; };
+		5EC626BD28C2B07100401933 /* SongLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongLabel.swift; sourceTree = "<group>"; };
+		5EC626BF28C2B07B00401933 /* TimeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLabel.swift; sourceTree = "<group>"; };
+		5EC626C228C2B0FF00401933 /* ArtworkCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkCollectionViewCell.swift; sourceTree = "<group>"; };
+		5EC626C528C2B12000401933 /* SongModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +61,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E0E9EA128C8840800553BDC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		5EC6268A28C2972100401933 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +87,68 @@
 		5EC6269528C2972100401933 /* TestProjectForXvanSoft */ = {
 			isa = PBXGroup;
 			children = (
+				5E5A706528C759E800EACE7C /* MusicManager.swift */,
+				5EC626C428C2B10D00401933 /* Models */,
+				5EC626B828C2B00E00401933 /* UserInterface */,
+				5EC626AD28C29AA400401933 /* Songs */,
 				5EC6269628C2972100401933 /* AppDelegate.swift */,
 				5EC6269828C2972100401933 /* SceneDelegate.swift */,
-				5EC6269A28C2972100401933 /* ViewController.swift */,
-				5EC6269C28C2972100401933 /* Main.storyboard */,
+				5EC626AC28C29A9A00401933 /* Controllers */,
 				5EC6269F28C2972300401933 /* Assets.xcassets */,
 				5EC626A128C2972300401933 /* LaunchScreen.storyboard */,
 				5EC626A428C2972300401933 /* Info.plist */,
 			);
 			path = TestProjectForXvanSoft;
+			sourceTree = "<group>";
+		};
+		5EC626AC28C29A9A00401933 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E0E9EA128C8840800553BDC /* Extensions */,
+				5EC626C128C2B0DF00401933 /* CollectionViewCells */,
+				5EC626AA28C2993600401933 /* InitialViewController.swift */,
+				5E0E9E9F28C7A7D100553BDC /* ArtworkCollectionView.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5EC626AD28C29AA400401933 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				5E0E9EA628C9F22400553BDC /* 01. Groundhog Day.mp3 */,
+				5E0E9EA728C9F22400553BDC /* 02. Road (Feat. Arctic Lake).mp3 */,
+				5E0E9EA828C9F22500553BDC /* 03. Just.mp3 */,
+				5E0E9EA428C9F22400553BDC /* 04. Brightest Lights (Feat. POLICA).mp3 */,
+				5E0E9EA528C9F22400553BDC /* 05. Sunday Song.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		5EC626B828C2B00E00401933 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				5EC626B928C2B03A00401933 /* PlayerButton.swift */,
+				5EC626BB28C2B05800401933 /* TimeSlider.swift */,
+				5EC626BD28C2B07100401933 /* SongLabel.swift */,
+				5EC626BF28C2B07B00401933 /* TimeLabel.swift */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		5EC626C128C2B0DF00401933 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				5EC626C228C2B0FF00401933 /* ArtworkCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		5EC626C428C2B10D00401933 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5EC626C528C2B12000401933 /* SongModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +209,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E0E9EAB28C9F22500553BDC /* 01. Groundhog Day.mp3 in Resources */,
 				5EC626A328C2972300401933 /* LaunchScreen.storyboard in Resources */,
+				5E0E9EA928C9F22500553BDC /* 04. Brightest Lights (Feat. POLICA).mp3 in Resources */,
 				5EC626A028C2972300401933 /* Assets.xcassets in Resources */,
-				5EC6269E28C2972100401933 /* Main.storyboard in Resources */,
+				5E0E9EAD28C9F22500553BDC /* 03. Just.mp3 in Resources */,
+				5E0E9EAC28C9F22500553BDC /* 02. Road (Feat. Arctic Lake).mp3 in Resources */,
+				5E0E9EAA28C9F22500553BDC /* 05. Sunday Song.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +226,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EC6269B28C2972100401933 /* ViewController.swift in Sources */,
+				5EC626C028C2B07B00401933 /* TimeLabel.swift in Sources */,
+				5EC626AB28C2993600401933 /* InitialViewController.swift in Sources */,
 				5EC6269728C2972100401933 /* AppDelegate.swift in Sources */,
+				5E5A706628C759E800EACE7C /* MusicManager.swift in Sources */,
+				5EC626C328C2B0FF00401933 /* ArtworkCollectionViewCell.swift in Sources */,
+				5EC626BA28C2B03A00401933 /* PlayerButton.swift in Sources */,
+				5EC626BE28C2B07100401933 /* SongLabel.swift in Sources */,
+				5E0E9EA028C7A7D100553BDC /* ArtworkCollectionView.swift in Sources */,
+				5EC626C628C2B12000401933 /* SongModel.swift in Sources */,
 				5EC6269928C2972100401933 /* SceneDelegate.swift in Sources */,
+				5EC626BC28C2B05800401933 /* TimeSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5EC6269C28C2972100401933 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5EC6269D28C2972100401933 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5EC626A128C2972300401933 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +380,7 @@
 				INFOPLIST_FILE = TestProjectForXvanSoft/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,7 +392,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,7 +408,7 @@
 				INFOPLIST_FILE = TestProjectForXvanSoft/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +420,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
